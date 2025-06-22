@@ -1,0 +1,135 @@
+2025-06-22 11:29:42,773 - ERROR - Extraction failed: [PATH_NOT_FOUND] Path does not exist: file:/workspaces/Loan-Repayment/data/SunCompany_payments_data.csv.
+2025-06-22 11:29:42,786 - CRITICAL - Pipeline execution failed: [PATH_NOT_FOUND] Path does not exist: file:/workspaces/Loan-Repayment/data/SunCompany_payments_data.csv.
+2025-06-22 11:29:43,328 - INFO - Closing down clientserver connection
+2025-06-22 11:32:34,767 - INFO - Successfully extracted data.
+2025-06-22 11:32:34,768 - INFO - Validating DataFrame
+2025-06-22 11:32:49,563 - INFO - Duplicate rows in DataFrame: 80
+2025-06-22 11:32:49,564 - ERROR - Validation failed for DataFrame: 'str' object has no attribute 'columns'
+2025-06-22 11:32:49,564 - CRITICAL - Pipeline execution failed: 'str' object has no attribute 'columns'
+2025-06-22 11:32:50,004 - INFO - Closing down clientserver connection
+2025-06-22 14:45:04,625 - INFO - Successfully extracted data.
+2025-06-22 14:45:04,625 - INFO - Validating DataFrame
+2025-06-22 14:45:21,287 - INFO - Duplicate rows in DataFrame: 80
+2025-06-22 14:45:21,290 - ERROR - Validation failed for DataFrame: 'str' object has no attribute 'columns'
+2025-06-22 14:45:21,291 - CRITICAL - Pipeline execution failed: 'str' object has no attribute 'columns'
+2025-06-22 14:45:21,898 - INFO - Closing down clientserver connection
+2025-06-22 14:53:41,184 - INFO - Successfully extracted data.
+2025-06-22 14:53:41,185 - INFO - Validating Transactions
+2025-06-22 14:53:52,762 - INFO - Duplicate rows in Transactions: 80
+2025-06-22 14:53:55,619 - INFO - Outliers in column 'repmt_amt' of Transactions: 5298
+2025-06-22 14:53:55,620 - INFO - Validating Accounts
+2025-06-22 14:53:58,229 - INFO - Duplicate rows in Accounts: 0
+2025-06-22 14:53:59,378 - INFO - Invalid or null repayment dates in Accounts: 0
+2025-06-22 14:53:59,981 - INFO - Outliers in column 'total_cost' of Accounts: 516
+2025-06-22 14:54:00,457 - INFO - Outliers in column 'long' of Accounts: 0
+2025-06-22 14:54:00,948 - INFO - Outliers in column 'lat' of Accounts: 0
+2025-06-22 14:54:01,417 - INFO - Outliers in column 'follow_on_cost' of Accounts: 516
+2025-06-22 14:54:02,112 - INFO - Outliers in column 'downpmt_cost' of Accounts: 516
+2025-06-22 14:54:02,579 - INFO - Outliers in column 'contract_days' of Accounts: 2102
+2025-06-22 14:54:03,010 - INFO - Outliers in column 'follow_on_days' of Accounts: 2102
+2025-06-22 14:54:03,489 - INFO - Outliers in column 'receivable_per_day' of Accounts: 516
+2025-06-22 14:54:03,945 - INFO - Outliers in column 'exchange_rate' of Accounts: 0
+2025-06-22 14:54:04,108 - INFO - Transformation successful.
+2025-06-22 14:54:12,094 - INFO - Data written to: output/monthly_repayment_rates_20250622.csv
+2025-06-22 14:54:12,094 - INFO - TransformationLoanRepaymentETL successful.
+2025-06-22 14:54:12,221 - INFO - Closing down clientserver connection
+2025-06-22 14:56:35,041 - INFO - Successfully extracted data.
+2025-06-22 14:56:35,041 - INFO - Validating Transactions
+2025-06-22 14:56:45,869 - INFO - Duplicate rows in Transactions: 80
+2025-06-22 14:56:49,221 - INFO - Outliers in column 'repmt_amt' of Transactions: 5298
+2025-06-22 14:56:49,222 - INFO - Validating Accounts
+2025-06-22 14:56:51,779 - INFO - Duplicate rows in Accounts: 0
+2025-06-22 14:56:52,861 - INFO - Invalid or null repayment dates in Accounts: 0
+2025-06-22 14:56:53,404 - INFO - Outliers in column 'total_cost' of Accounts: 516
+2025-06-22 14:56:53,945 - INFO - Outliers in column 'long' of Accounts: 0
+2025-06-22 14:56:54,461 - INFO - Outliers in column 'lat' of Accounts: 0
+2025-06-22 14:56:55,235 - INFO - Outliers in column 'follow_on_cost' of Accounts: 516
+2025-06-22 14:56:55,698 - INFO - Outliers in column 'downpmt_cost' of Accounts: 516
+2025-06-22 14:56:56,149 - INFO - Outliers in column 'contract_days' of Accounts: 2102
+2025-06-22 14:56:56,586 - INFO - Outliers in column 'follow_on_days' of Accounts: 2102
+2025-06-22 14:56:56,938 - INFO - Outliers in column 'receivable_per_day' of Accounts: 516
+2025-06-22 14:56:57,544 - INFO - Outliers in column 'exchange_rate' of Accounts: 0
+2025-06-22 14:56:57,738 - INFO - Transformation successful.
+2025-06-22 15:08:03,684 - INFO - Data written to: output//monthly_repayment_rates_20250622.csv
+2025-06-22 15:08:03,685 - INFO - TransformationLoanRepaymentETL successful.
+2025-06-22 15:08:03,856 - INFO - Closing down clientserver connection
+2025-06-22 15:09:49,164 - INFO - Successfully extracted data.
+2025-06-22 15:09:49,165 - INFO - Validating Transactions
+2025-06-22 15:10:00,546 - INFO - Duplicate rows in Transactions: 80
+2025-06-22 15:10:03,420 - INFO - Outliers in column 'repmt_amt' of Transactions: 5298
+2025-06-22 15:10:03,420 - INFO - Validating Accounts
+2025-06-22 15:10:06,079 - INFO - Duplicate rows in Accounts: 0
+2025-06-22 15:10:06,940 - INFO - Invalid or null repayment dates in Accounts: 0
+2025-06-22 15:10:07,733 - INFO - Outliers in column 'total_cost' of Accounts: 516
+2025-06-22 15:10:08,456 - INFO - Outliers in column 'long' of Accounts: 0
+2025-06-22 15:10:09,133 - INFO - Outliers in column 'lat' of Accounts: 0
+2025-06-22 15:10:09,643 - INFO - Outliers in column 'follow_on_cost' of Accounts: 516
+2025-06-22 15:10:10,272 - INFO - Outliers in column 'downpmt_cost' of Accounts: 516
+2025-06-22 15:10:10,850 - INFO - Outliers in column 'contract_days' of Accounts: 2102
+2025-06-22 15:10:11,437 - INFO - Outliers in column 'follow_on_days' of Accounts: 2102
+2025-06-22 15:10:11,936 - INFO - Outliers in column 'receivable_per_day' of Accounts: 516
+2025-06-22 15:10:12,386 - INFO - Outliers in column 'exchange_rate' of Accounts: 0
+2025-06-22 15:10:12,554 - INFO - Transformation successful.
+2025-06-22 15:10:20,669 - INFO - Data written to: output//monthly_repayment_rates_20250622.csv
+2025-06-22 15:10:20,673 - INFO - TransformationLoanRepaymentETL successful.
+2025-06-22 15:10:21,274 - INFO - Closing down clientserver connection
+2025-06-22 15:17:13,874 - INFO - Successfully extracted data.
+2025-06-22 15:17:13,876 - INFO - Validating Transactions
+2025-06-22 15:17:25,041 - INFO - Duplicate rows in Transactions: 80
+2025-06-22 15:17:28,184 - INFO - Outliers in column 'repmt_amt' of Transactions: 5298
+2025-06-22 15:17:28,185 - INFO - Validating Accounts
+2025-06-22 15:17:30,849 - INFO - Duplicate rows in Accounts: 0
+2025-06-22 15:17:31,866 - INFO - Invalid or null repayment dates in Accounts: 0
+2025-06-22 15:17:32,391 - INFO - Outliers in column 'total_cost' of Accounts: 516
+2025-06-22 15:17:33,171 - INFO - Outliers in column 'long' of Accounts: 0
+2025-06-22 15:17:33,659 - INFO - Outliers in column 'lat' of Accounts: 0
+2025-06-22 15:17:34,163 - INFO - Outliers in column 'follow_on_cost' of Accounts: 516
+2025-06-22 15:17:34,621 - INFO - Outliers in column 'downpmt_cost' of Accounts: 516
+2025-06-22 15:17:35,380 - INFO - Outliers in column 'contract_days' of Accounts: 2102
+2025-06-22 15:17:35,893 - INFO - Outliers in column 'follow_on_days' of Accounts: 2102
+2025-06-22 15:17:36,416 - INFO - Outliers in column 'receivable_per_day' of Accounts: 516
+2025-06-22 15:17:36,875 - INFO - Outliers in column 'exchange_rate' of Accounts: 0
+2025-06-22 15:17:37,073 - INFO - Transformation successful.
+2025-06-22 15:17:44,213 - INFO - Data written to: output//monthly_repayment_rates_20250622.csv
+2025-06-22 15:17:44,213 - INFO - TransformationLoanRepaymentETL successful.
+2025-06-22 15:17:44,623 - INFO - Closing down clientserver connection
+2025-06-22 15:25:00,412 - INFO - Successfully extracted data.
+2025-06-22 15:25:00,415 - INFO - Validating Transactions
+2025-06-22 15:25:11,553 - INFO - Duplicate rows in Transactions: 80
+2025-06-22 15:25:14,490 - INFO - Outliers in column 'repmt_amt' of Transactions: 5298
+2025-06-22 15:25:14,491 - INFO - Validating Accounts
+2025-06-22 15:25:17,002 - INFO - Duplicate rows in Accounts: 0
+2025-06-22 15:25:18,008 - INFO - Invalid or null repayment dates in Accounts: 0
+2025-06-22 15:25:18,533 - INFO - Outliers in column 'total_cost' of Accounts: 516
+2025-06-22 15:25:19,054 - INFO - Outliers in column 'long' of Accounts: 0
+2025-06-22 15:25:19,606 - INFO - Outliers in column 'lat' of Accounts: 0
+2025-06-22 15:25:20,163 - INFO - Outliers in column 'follow_on_cost' of Accounts: 516
+2025-06-22 15:25:20,662 - INFO - Outliers in column 'downpmt_cost' of Accounts: 516
+2025-06-22 15:25:21,144 - INFO - Outliers in column 'contract_days' of Accounts: 2102
+2025-06-22 15:25:21,533 - INFO - Outliers in column 'follow_on_days' of Accounts: 2102
+2025-06-22 15:25:22,065 - INFO - Outliers in column 'receivable_per_day' of Accounts: 516
+2025-06-22 15:25:22,500 - INFO - Outliers in column 'exchange_rate' of Accounts: 0
+2025-06-22 15:25:22,667 - INFO - Transformation successful.
+2025-06-22 15:25:30,428 - INFO - Data successfully written to: output/monthly_repayment_rates_20250622.csv
+2025-06-22 15:25:30,429 - INFO - TransformationLoanRepaymentETL successful.
+2025-06-22 15:25:30,557 - INFO - Closing down clientserver connection
+2025-06-22 15:28:49,910 - INFO - Successfully extracted data.
+2025-06-22 15:28:49,910 - INFO - Validating Transactions
+2025-06-22 15:29:00,633 - INFO - Duplicate rows in Transactions: 80
+2025-06-22 15:29:03,782 - INFO - Outliers in column 'repmt_amt' of Transactions: 5298
+2025-06-22 15:29:03,784 - INFO - Validating Accounts
+2025-06-22 15:29:06,254 - INFO - Duplicate rows in Accounts: 0
+2025-06-22 15:29:07,394 - INFO - Invalid or null repayment dates in Accounts: 0
+2025-06-22 15:29:07,950 - INFO - Outliers in column 'total_cost' of Accounts: 516
+2025-06-22 15:29:08,710 - INFO - Outliers in column 'long' of Accounts: 0
+2025-06-22 15:29:09,235 - INFO - Outliers in column 'lat' of Accounts: 0
+2025-06-22 15:29:09,804 - INFO - Outliers in column 'follow_on_cost' of Accounts: 516
+2025-06-22 15:29:10,431 - INFO - Outliers in column 'downpmt_cost' of Accounts: 516
+2025-06-22 15:29:10,951 - INFO - Outliers in column 'contract_days' of Accounts: 2102
+2025-06-22 15:29:11,472 - INFO - Outliers in column 'follow_on_days' of Accounts: 2102
+2025-06-22 15:29:11,949 - INFO - Outliers in column 'receivable_per_day' of Accounts: 516
+2025-06-22 15:29:12,665 - INFO - Outliers in column 'exchange_rate' of Accounts: 0
+2025-06-22 15:29:12,866 - INFO - Transformation successful.
+2025-06-22 15:29:21,129 - ERROR - Load failed: [Errno 21] Is a directory: 'output/monthly_repayment_rates_20250622.csv'
+2025-06-22 15:29:21,131 - CRITICAL - Pipeline execution failed: [Errno 21] Is a directory: 'output/monthly_repayment_rates_20250622.csv'
+2025-06-22 15:29:21,662 - INFO - Closing down clientserver connection
